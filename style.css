@@ -1,0 +1,192 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+            /* background-color: azure; */
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: aliceblue;
+}
+nav{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding:5px 15px;
+    /* border: 1px solid; */
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.nav_items{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+}
+.nav_items a{
+    text-decoration: none;
+    color: black;
+}
+.logo img{
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+}
+.main-section{
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
+ url(https://img.freepik.com/free-vector/hand-drawn-pizza-pattern-background_23-2150905263.jpg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.container h1{
+    font-size: 60px;
+    color:white;
+   background:none;
+   border-radius: 8px;
+   padding: 10px;
+}
+.container p{
+    font-size: 30px;
+    color: rgb(240, 246, 249);
+}
+.buttons{
+    display: flex;
+    gap: 20px;    
+}  
+.buttons button{
+    padding: 15px 35px;
+    font-size: 18px;
+    border-radius: 18px;
+    border: none;
+}
+#btn1:hover{
+    background-color: rgb(79, 245, 237);
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    transform:scale(1.05)
+   
+}
+#btn2:hover{
+    background-color: rgb(79, 245, 237);
+    color:white;
+    cursor: pointer;
+    font-weight: bold;
+     transform:scale(1.05)
+}
+.features{
+    
+    background-color: #fcf4eb;
+    padding: 80px 60px;
+}
+.features h2{
+    margin-top: 20px;
+    text-align: center;
+    color: #c0392b;
+}
+.card-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top:40px
+}
+.card{
+    flex:1;
+    background-color: white;
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+    transition: all 0.3s ease;
+    
+}
+.card:hover{
+      transform: translateY(-10px);
+      cursor: pointer;
+      box-shadow: 0px 2px 4px;
+      border: none
+}
+.card img{
+    height: 100%;
+    width: 250px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+.heading{
+    font-size: medium;
+     color: #c45003;
+}
+.paragraph{
+    padding: 15px;
+    line-height: 20px;
+   color: #3e3e3e;
+}
+.footer{
+    background-color: #3d3d3d;
+    color: white;
+   padding:50px 80px 20px;
+    margin-top: 80px;
+}
+
+.footer-logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;  
+}
+.footer-logo img{
+     height: 60px;
+    width: 60px;
+     border-radius: 50%;
+    object-fit: cover;
+}
+.footer-logo h2{
+    margin: 0;
+    color: rgb(249, 248, 248);
+}
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.footer-links{
+    display: flex;
+    gap: 25px;
+}
+
+.footer-links a{
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.footer-links a:hover{
+    color: tomato;
+}
+
+.footer hr{
+    width: 80%;
+    border: 1px solid #848181;
+}
+
+.copyright{
+    font-size: 14px;
+    color: #bbb;
+}
